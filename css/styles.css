@@ -871,6 +871,7 @@ hr {
 .details{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .details_pic{
@@ -925,8 +926,69 @@ ul li::marker{
 }
 
 
+.tabs {
+  max-width: 1421px;
+  margin: 0 auto;
+  background: transparent;
+}
 
+.tabs li{
+  list-style-type: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222022;
+  padding-bottom: 15px;
+}
 
+.tabs__nav {
+  width: 100%;
+  height: 50px;
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid #CAC8CA;
+  
+}
+
+.tabs__nav-btn {
+  width: 33%;
+  height: 100%;
+  font-size: 20px;
+  border: 0;
+  background: transparent;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'Source Serif Pro', serif;
+  /* margin-bottom: 24px; */
+  color: #161516;
+  opacity: 0.6;
+
+}
+
+.tabs__nav-btn:last-child {
+  border-right: none;
+}
+
+.tabs__nav-btn:hover {
+ 
+}
+
+.tabs__nav-btn.active {
+  color: #161516;
+  border-bottom: 2px solid #DE596D;
+}
+
+.tabs__content {
+  background: transparent;
+  margin-top: 24px;
+}
+
+.tabs__item {
+  display: none;
+}
+
+.tabs__item.active {
+  display: block;
+}
 
 /* about_lifting end */
 
