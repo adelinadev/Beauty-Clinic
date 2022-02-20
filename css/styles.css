@@ -992,6 +992,82 @@ ul li::marker{
 
 /* about_lifting end */
 
+/* equipment start */
+.equipment{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.equipment__wrap{
+  width: 1436px;
+  height: 644px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.equipment__wrap-desc{
+  width: 336px;
+  height: 274px;
+}
+
+.equipment__wrap-title{
+  font-size: 38px;
+  font-size: 24px;
+  line-height: 45px;
+  font-family: 'Source Serif Pro', serif;
+  color: #161516;
+  font-style: normal;
+  font-weight: 400; 
+  margin-bottom: 25px; 
+}
+.equipment__wrap-name{
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'Source Serif Pro', serif;
+  color: #161516;
+  font-style: normal;
+  font-weight: 400; 
+}
+
+.equipment__wrap-desc p{
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #161516;
+  font-style: normal;
+  font-weight: 300; 
+  padding-top: 15px;
+}
+
+.equipmein__wrap-about{
+  display: flex; 
+  background: linear-gradient(0.25turn, #FFF4F8, #ebf8e1,); 
+  border: 1px solid green; 
+  position: relative;
+}
+
+.equipment ul li{
+  list-style-type: none;
+  padding-left: 35px;
+  margin-top: 30px;
+}
+.equipmein__wrap-pic{
+  background: url(./img/equipment.png); 
+  width: 576px; 
+  height: 560px;
+  position: absolute;
+  top: 40px;
+}
+
+
+
+
+/* border: 1px solid green; */
+/* about_lifting end */
+
 
 
 
