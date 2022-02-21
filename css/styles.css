@@ -1005,6 +1005,7 @@ ul li::marker{
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -1044,22 +1045,24 @@ ul li::marker{
 
 .equipmein__wrap-about{
   display: flex; 
-  background: linear-gradient(0.25turn, #FFF4F8, #ebf8e1,); 
-  border: 1px solid green; 
-  position: relative;
-}
+  background-image: linear-gradient(
+        90deg, 
+        #FFF4F8 60%,
+        white 40%
+        );
+  }
 
 .equipment ul li{
   list-style-type: none;
   padding-left: 35px;
   margin-top: 30px;
 }
+
 .equipmein__wrap-pic{
-  background: url(./img/equipment.png); 
-  width: 576px; 
-  height: 560px;
-  position: absolute;
-  top: 40px;
+  background: url(../img/equipment.png);
+  width: 560px; 
+  height: 560px; 
+  margin-top: 40px; 
 }
 
 
